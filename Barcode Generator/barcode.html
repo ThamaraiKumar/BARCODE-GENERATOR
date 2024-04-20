@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="barcode-icon.ico"/>
+    <link rel="stylesheet" href="barcode.css"/>
+    <title>Bar Code Generator</title>
+</head>
+<body>
+
+    <div class="unique-heading"><h1>BARCODE GENERATOR</h1></div>
+    <div class="container"><div class="cover"></div>
+    <input type="text" id="unique-input" placeholder="Enter the text" class="unique-input"/>&nbsp;
+    <button id="unique-btn-barcode-generator" class="unique-button">Generate</button>
+    <svg id="unique-barcode" class="barcode-image"></svg>
+    <button class="unique-button" id="download-btn">Download</button>
+</div>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jsbarcode/3.11.6/JsBarcode.all.min.js"></script>
+<script src="barcode.js"></script>
+</html>

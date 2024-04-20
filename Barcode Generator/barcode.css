@@ -1,0 +1,73 @@
+*
+{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0;
+}
+.container 
+{
+       width: min(500px,90vw);
+       position: absolute;
+       transform: translate(-50%,-50%);
+       top:30%;
+       left: 20%;
+}
+.cover
+{
+    background-color: rgb(64, 70, 68);
+    opacity: 0.6;
+    position: absolute;
+    top:54px;
+    left: 20%;
+    height: 30vh;
+    width: 27vw;
+    border-radius: 0.8em;
+    box-shadow: rgba(218, 154, 58, 0.35) 0px 5px 15px;
+}
+.container .barcode-image
+{
+   position: absolute;
+   top:5rem;
+   left:30%;
+
+}
+.unique-heading h1
+{
+    color: whitesmoke;
+    text-shadow: 2px 1px rgb(70, 138, 202);
+    letter-spacing: 20px;
+    margin-top: 1rem;
+}
+.unique-input
+{
+    border-radius: 15px;
+    height: 5vh;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: black;
+    font-weight: bolder;
+    font-size: larger;
+    color: black;
+    background-color: transparent;
+    text-decoration: dotted;
+    box-shadow: 0 0.7em 1.5em -0.5em #373738be;
+}
+
+.unique-button
+{
+  font-family: cursive;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 0.4em 1em 0.4em 1em;
+  color: black;
+  background: linear-gradient(0deg, rgba(77,54,208,1) 0%, rgba(132,116,254,1) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #4d36d0be;
+  border-radius: 20em;
+}
+body
+{
+    background-image: url("https://getwallpapers.com/wallpaper/full/2/0/a/789759-download-free-smurf-wallpapers-2880x1800-lockscreen.jpg");
+    background-size: cover;
+    text-align: center;
+}
